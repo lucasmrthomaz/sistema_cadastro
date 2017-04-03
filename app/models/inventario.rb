@@ -1,3 +1,4 @@
 class Inventario < ApplicationRecord
-    has_one :cliente
+    has_many :clientes
+    has_many :categorium
 end
